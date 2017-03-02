@@ -48,6 +48,7 @@ public class MyMenuFrame extends JFrame {
 		exitItem.addActionListener(new exitHandler());
 		exitItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_X,InputEvent.META_MASK));
 		formatMenu.add(colorMenu);
+		formatMenu.addSeparator();
 		formatMenu.add(FontMenu);
 		bar.add(formatMenu);
 		
